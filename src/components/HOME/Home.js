@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import './Home.css';
+import watch from '../watch.jpg';
 
 
 
@@ -14,7 +15,7 @@ const Home = () => {
                 <p>Deep dive into Milkyway Galaxy with"ASTRO WATCH".This watch telecast ISS information & enrich with a lot of feature.</p>
             </div>
             <div>
-<img src="{image/Samsung-Galaxy-Watch.jpg}" alt="" />
+<img src="{watch.jpg}" alt="" />
             </div>
 
         </div>
