@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { render } from 'react-dom';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import './Dashboard.css'
 
 
 const Dashboard = () => {
@@ -8,15 +9,15 @@ const Dashboard = () => {
         [
             {
                 "month": "Mar",
-                "investment": 100000,
+                "investment": 300000,
                 "sell": 241,
-                "revenue": 10401
+                "revenue": 200401
             },
             {
                 "month": "Apr",
-                "investment": 120000,
+                "investment": 400000,
                 "sell": 423,
-                "revenue": 24500
+                "revenue": 245000
             },
             {
                 "month": "May",
@@ -40,13 +41,13 @@ const Dashboard = () => {
                 "month": "Aug",
                 "investment": 700000,
                 "sell": 670,
-                "revenue": 61000
+                "revenue": 800000
             },
             {
                 "month": "Sep",
-                "investment": 50000,
+                "investment": 500000,
                 "sell": 670,
-                "revenue": 150000
+                "revenue": 700000
             },
             {
                 "month": "Oct",
@@ -61,7 +62,7 @@ const Dashboard = () => {
     return (
 
         <div className='chart-container'>
-<h2>MONTH VS REVENUE BAR CHART</h2> <hr />
+<h2 className='heading'>MONTH vs REVENUE BAR CHART</h2> <hr className='underline'  />
 
             <BarChart
                 width={800}
@@ -96,7 +97,8 @@ const Dashboard = () => {
                 <Bar dataKey="revenue" fill='#82ca9d'></Bar>
             </BarChart>
 
-<h2>MONTH VS REVENUE AREA CHART</h2>
+<h2 className='heading'>MONTH VS REVENUE AREA CHART</h2> 
+<hr className='underline'  />
             <AreaChart
                 width={800}
                 height={500}

@@ -1,3 +1,14 @@
+
 .chart-container{
     text-align: center;
+}
+.underline{
+   font-size: 15px;
+    color: rgb(62, 236, 241);
+    width: 450px;
+   font-weight: 1200;
+   
+}
+.heading{
+    color: rgb(39, 253, 253);
 }
