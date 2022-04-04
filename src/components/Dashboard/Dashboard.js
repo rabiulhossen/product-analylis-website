@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { render } from 'react-dom';
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { AreaChart, Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 
 const Dashboard = () => {
@@ -48,6 +48,8 @@ const Dashboard = () => {
 
     return (
 
+<div>
+
 
         <BarChart
             width={700}
@@ -83,7 +85,7 @@ const Dashboard = () => {
         </BarChart>
 
 
-
+        </div>
 
     );
 };
