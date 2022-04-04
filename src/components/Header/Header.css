@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: coral;
+}
+.header-link a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(250, 50, 200);
+}
