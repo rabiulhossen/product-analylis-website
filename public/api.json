@@ -1,0 +1,52 @@
+[
+    {
+      "id": "624bdeb33d5d7e97becd3864",
+      "rating": "4.7",
+      "image": "http://placehold.it/32x32",
+      "name": "Elba Riggs",
+      "review": "What an excellent watch!"
+    },
+    {
+      "id": "624bdeb325735705437264fd",
+      "rating": "4.5",
+      "image": "http://placehold.it/32x32",
+      "name": "Ofelia Holman",
+      "review": "The Astro Watch  is sleeker and more premium than the Active 2. The limited number of current watch faces being it's only drawback."
+    },
+    {
+      "id": "624bdeb34148d5979619b0a3",
+      "rating": "4.00",
+      "image": "http://placehold.it/32x32",
+      "name": "Rogers Sampson",
+      "review": "I expected better from Samsung. Instead, there is a poorly engineered piece of crap on my wrist. Pretty to look at but that is it. Battery life is absolutely atrocious. Seriously this is an embarrassment from Samsung."
+    },
+    {
+      "id": "624bdeb318ca95edeece1b87",
+      "rating": "5.00",
+      "image": "http://placehold.it/32x32",
+      "name": "Collier Hester",
+      "review": "Being a big Samsung fan, I was happy to see a new watch released. This is my 4th Samsung smart watch and I am happy with the build quality of the watch. It definitely feels like an upgrade when compared to my previous Galaxy Active 2. The battery life however leaves much to be desired. I have most of the automatic health monitoring stuff off aside from taking my HR every 10 minutes when I'm resting. I do not use the always on display either."
+    },
+    {
+      "id": "624bdeb3909f5d95edfe4d24",
+      "rating": "4.9",
+      "image": "http://placehold.it/32x32",
+      "name": "Burnett Randolph",
+      "review": "The watch itself is super easy to use! Amazing design and wonderful options for every kind of user out there"
+    },
+    {
+      "id": "624bdeb3595b1f73d87d8493",
+      "rating": "4.3",
+      "image": "http://placehold.it/32x32",
+      "name": "Jeannie Irwin",
+      "review": "Not what I expected for the price I paid! This watch does not hold a charge - at all. I thought battery life would improve after the first few days of the watch learning the usage pattern, however that did not happen and I still needed to charge daily!"
+    },
+    
+    {
+      "id": "624bdeb303fca79d77187de1",
+      "rating": "4.6",
+      "image": "http://placehold.it/32x32",
+      "name": "Doris Britt",
+      "review": "versataile watch"
+    }
+  ]

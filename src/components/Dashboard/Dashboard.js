@@ -71,14 +71,14 @@ const Dashboard = () => {
                 margin={{
                     top: 20,
                     right: 10,
-                    left: 100,
+                    left: 60,
                     bottom: 5,
                 }}
                 padding={
                     {
                         right: 15,
                         bottom: 10,
-                        left: 30,
+                        left: 20,
                     }
                 }
 
@@ -92,9 +92,10 @@ const Dashboard = () => {
                 <YAxis></YAxis>
                 <Tooltip></Tooltip>
                 <Legend></Legend>
-                <Bar dataKey={"investment"} fill='#8884d8' ></Bar>
+                <Bar dataKey={"investment"} fill='#F97F51' ></Bar>
 
-                <Bar dataKey="revenue" fill='#82ca9d'></Bar>
+                <Bar dataKey="revenue" fill='#fff200'></Bar>
+                <Bar dataKey="sell" fill='#FC427B'></Bar>
             </BarChart>
 
 <h2 className='heading'>MONTH VS REVENUE AREA CHART</h2> 
@@ -106,7 +107,7 @@ const Dashboard = () => {
                 margin={{
                     top: 30,
                     right: 10,
-                    left: 100,
+                    left: 60,
                     bottom: 5,
                 }}
                 padding={
@@ -122,20 +123,29 @@ const Dashboard = () => {
                 <XAxis dataKey="month"></XAxis>
                 <YAxis></YAxis>
                 <Tooltip></Tooltip>
-                <Area
-                    type="monotone"
-                    dataKey="investment"
-                    stackId="1"
-                    stroke="#8884d8"
-                    fill="#8884d8"
-                ></Area>
+                
                 <Area
                     type="monotone"
                     dataKey="revenue"
                     stackId="1"
-                    stroke="#82ca9d"
-                    fill="#82ca9d"
+                    stroke="#1B9CFC"
+                    fill="#26de81"
                 ></Area>
+                <Area
+                    type="monotone"
+                    dataKey="investment"
+                    stackId="1"
+                    stroke="#25CCF7"
+                    fill="#fa8231"
+                ></Area>
+                <Area
+                    type="monotone"
+                    dataKey="sell"
+                    stackId="1"
+                    stroke="#0abde3"
+                    fill="#ff6b6b"
+                ></Area>
+
             </AreaChart>
 
 
