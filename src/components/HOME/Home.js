@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Router, useRoutes } from 'react-router-dom';
 import Header from '../Header/Header';
 import './Home.css';
 
@@ -7,7 +8,9 @@ import './Home.css';
 
 
 
+
 const Home = () => {
+    const router = useRoutes();
     return (
         <div>
         <div className='home-comp'>
@@ -23,7 +26,8 @@ const Home = () => {
             </div>
             
         </div>
-        <button className="see-more-btn" role="button"><span class="text">SEE MORE</span></button>
+        <Link to="/review" > <button className="see-more-btn" role="button"><span className="text">SEE MORE</span></button></Link>
+       
         </div>
     );
 };
