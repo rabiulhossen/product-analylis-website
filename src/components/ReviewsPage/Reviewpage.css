@@ -1,0 +1,9 @@
+.big{
+    text-align: center;
+    color: rgb(236, 56, 92);
+    font-weight: 700;
+    font-size: 45px;
+}
+.review-div{
+    margin: 10px,20px !important;
+}

@@ -1,3 +1,7 @@
+
+
+
+
 .home-comp{
     display: flex;
     justify-content:space-between;
@@ -20,6 +24,11 @@ box-shadow: 5px;
 }
 .astro{
     color: mediumspringgreen;
+}
+.heading{
+  color: rgb(63, 216, 243);
+  text-align: center;
+  margin: 20px,0px;
 }
 
 

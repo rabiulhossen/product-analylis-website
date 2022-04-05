@@ -1,27 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import './Reviews.css'
 
-
-const Reviews = () => {
-
-    const [review, setReview] = useState([]);
-    useEffect(() => {
-        fetch('../../public/api.json')
-            .then(res => res.json())
-            .then(data => setReview(data))
-    }, [])
-
+const Reviews = ({ reviewData }) => {
 
     return (
         <div>
-            <h1></h1>
             {
-                review.map(({name,review,rating}) => (<div> <h1>{name}</h1>
-                    <h2>{rating}</h2>
-                    <h4>{review}</h4>
+                reviewData?.map(({ name, id, rating, comment }) => (<div key={id}>
+                    <div className='review-div'>
+                        <div className='contain'>
+                            <h2>Name:{name}</h2>
+                            <div>  <h3 className='rating'>Rating:{rating}</h3></div>
+                            <div>  <h3>Review:{comment}</h3></div>
+                        </div>
+
+
+                    </div>
+
                 </div>))
-
-
-
             }
         </div>
     );
