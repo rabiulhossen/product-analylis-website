@@ -8,8 +8,9 @@
 width: 50%;
 }
 .para{
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(247, 217, 179);
+    font-style: italic;
 }
 
 .home-image img{

@@ -48,12 +48,6 @@ const Dashboard = () => {
                 "investment": 500000,
                 "sell": 670,
                 "revenue": 700000
-            },
-            {
-                "month": "Oct",
-                "investment": 600000,
-                "sell": 670,
-                "revenue": 400000
             }
         ];
 
@@ -71,8 +65,8 @@ const Dashboard = () => {
                 margin={{
                     top: 20,
                     right: 10,
-                    left: 60,
-                    bottom: 5,
+                    left: 50,
+                    bottom: 10,
                 }}
                 padding={
                     {
@@ -107,14 +101,15 @@ const Dashboard = () => {
                 margin={{
                     top: 30,
                     right: 10,
-                    left: 60,
-                    bottom: 5,
+                    left: 50,
+                    bottom: 10,
                 }}
                 padding={
                     {
                         right: 15,
                         bottom: 10,
                         left: 30,
+                        bottom:20,
                     }}
             >
                 <CartesianGrid
