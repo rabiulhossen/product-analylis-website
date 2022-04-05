@@ -1,0 +1,22 @@
+.home-comp{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 30px;
+}
+.home-div{
+width: 50%;
+}
+.para{
+    font-size: 20px;
+    color: rgb(247, 217, 179);
+}
+
+.home-image img{
+    width: 400px;;
+box-shadow: 5px;
+   
+}
+.astro{
+    color: mediumspringgreen;
+}

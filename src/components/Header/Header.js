@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div>
-                <h1 className='title'>SAMSUNG STORE</h1>
+                <h1 className='title'>GALAXY STORE</h1>
 
             </div>
             <div className='header-link'>

@@ -4,12 +4,12 @@
     align-items: center;
 }
 .title{
-    color: coral;
+    color: rgb(182, 240, 48);
 }
 .header-link a{
     text-decoration: none;
     margin-right: 10px;
     font-size: 30px;
     font-weight: 700;
-    color: rgb(117, 16, 58);
+    color: rgb(55, 245, 213);
 }

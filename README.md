@@ -1,9 +1,10 @@
-# REVIEW WEBSITE with React App
+# Review Website with React App
 
-LIVE SITE:[Netlify Link](www.facebook.com)
-#Key Feature
+LIVE SITE:[NETLIFY LINK](www.facebook.com)
+##Key Feature
 - ReactJs use for UI Management.
 - React Router DOM for load Pages.
+- Rechart for Chart show.
 - A component is 404 page.
 - uses custom Hooks to load data
 ## Learn More

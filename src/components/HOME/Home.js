@@ -1,21 +1,22 @@
 import React from 'react';
 import Header from '../Header/Header';
 import './Home.css';
-import watch from '../watch.jpg';
+
+
 
 
 
 
 const Home = () => {
     return (
-        <div>
+        <div className='home-comp'>
 
-            <div>
-                <h1>Samsung Smart watch</h1>
-                <p>Deep dive into Milkyway Galaxy with"ASTRO WATCH".This watch telecast ISS information & enrich with a lot of feature.</p>
+            <div className='home-div'>
+                <h1>Samsung <span className='astro'>ASTRO WATCH</span> </h1>
+                <p className='para'>Deep dive into Milkyway Galaxy with <span className='astro'>"ASTRO WATCH"</span>.This watch telecast ISS information and enrich with a lot of feature.good fitness features, strong battery life and a comfortable design" thanks to a lightweight build and interesting new body composition measurement tools.</p>
             </div>
-            <div>
-<img src="{watch.jpg}" alt="" />
+            <div className='home-image'>
+<img src={"https://i.ibb.co/86pV3Lg/watch.jpg"} alt="" />
             </div>
 
         </div>
